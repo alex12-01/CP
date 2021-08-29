@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define forloop             for(int i=0;i<n;i++)
+#define pb                  push_back 
+#define ull                 unsigned long long
+#define ll                  long long
+#define mod                 1000000007
+#define MOD                 998244353
+#define unmap               unordered_map
+#define pi                  3.1415926536
+#define testcases           ll t;cin>>t;while(t--)
+#define  mp                 make_pair
+#define vcp                 vector<pair<ll,ll>>
+#define preci(x,y)          fixed<<setprecision(y)<<x
+#define SORT_UNIQUE(c)      (sort(c.begin(),c.end()), c.resize(distance(c.begin(),unique(c.begin(),c.end()))))
+#define fast                ios::sync_with_stdio(false);    cin.tie(0); cout.tie(0);
+#define preinc              priority_queue <ll, vector<ll>, greater<ll>>
+#define predec              priority_queue<ll> 
+#define vll                 vector<ll>
+#define make(n,arr,type)    type arr[n]
+#define input(arr,n)        for(int i=0;i<n;i++)cin>>arr[i];
+#define f(a,b)              for(ll i=a;i<b;i++)
+#define fr(a,b)             for(ll i=a;i>=b;i--)
+#define fc(i,a,b)           for(ll i=a;i<=b;i++)
+#define fri(i,a,b)          for(ll i=a;i>=b;i--)
+#define negmod(a)           (((a)%mod)+mod)%mod
